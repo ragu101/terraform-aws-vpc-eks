@@ -1,0 +1,16 @@
+variable "availability-zones" {} 
+variable "aws-region" {}  
+variable "cluster-name" {}
+variable "k8s-version" {}
+variable "node-instance-type" {}
+variable "root-block-size" {}
+variable "desired-capacity" {}
+variable "max-size" {}
+variable "min-size" {}
+variable "vpc-subnet-cidr" {}
+variable "private-subnet-cidr" {}
+variable "public-subnet-cidr" {}
+variable "db-subnet-cidr" {}
+variable "eks-cw-logging" {}
+variable "ec2-key-public-key" {}
+variable "env" {}
