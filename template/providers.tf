@@ -13,5 +13,4 @@
 provider "aws" {
   profile = "default"
   region  = "ap-southeast-1"
-  allowed_account_ids = "867524150028"
 }
